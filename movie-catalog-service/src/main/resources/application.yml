@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/java_brains
+    username: root
+    password: 7400
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+#Turn off the Spring Boot banner
+spring.main.banner-mode: off
+
+#Set the logging level for org.springframework to WARN
+logging.level.root: warn
